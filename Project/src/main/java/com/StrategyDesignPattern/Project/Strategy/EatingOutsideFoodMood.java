@@ -1,9 +1,9 @@
 package com.StrategyDesignPattern.Project.Strategy;
 
-public class EatingOutsideFoodMood implements IMood {
+public class EatingOutsideFoodMood implements IMoodStrategy {
 
     @Override
     public void toDo() {
-        System.out.println("Person with Eating outside food mood want to go out and Eat outside food");
+        System.out.println("Go out and Eat outside food");
     }
 }

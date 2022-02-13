@@ -1,10 +1,10 @@
 package com.StrategyDesignPattern.Project.Strategy;
 
-public class WatchingMovieMood implements IMood {
+public class WatchingMovieMood implements IMoodStrategy {
 
     @Override
     public void toDo() {
-        System.out.println("Person with watching movie mood want to Watch any movie");
+        System.out.println("Watch any movie");
     }
 
 

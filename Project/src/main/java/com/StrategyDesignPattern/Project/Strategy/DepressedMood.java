@@ -1,8 +1,8 @@
 package com.StrategyDesignPattern.Project.Strategy;
 
-public class DepressedMood implements IMood {
+public class DepressedMood implements IMoodStrategy {
     @Override
     public void toDo() {
-        System.out.println("Person with depressed mood want to go to sleep for sometime");
+        System.out.println("Sleep for sometime");
     }
 }
